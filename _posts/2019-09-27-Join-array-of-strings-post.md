@@ -4,8 +4,6 @@ title: "Join an array of strings into a single string"
 tags:
   - string
   - merge
-description: >
-How to join an array of strings into a single string.
 hero: https://source.unsplash.com/collection/145103/
 overlay: green
 published: true
