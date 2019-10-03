@@ -4,7 +4,7 @@ title: "Join an array of strings into a single string"
 tags:
   - string
   - merge
-hero: https://source.unsplash.com/collection/145103/
+hero: https://images.unsplash.com/photo-1529156069898-49953e39b3ac
 overlay: orange
 published: true
 ---
@@ -20,6 +20,20 @@ let elements = ["A1", "B2", "C3", "D4"]
 let joinedElements = elements.joined()
 
 //Result is "A1B2C3D4"
+
+
+## Join strings together using a separator
+
+Also, you can call joined with the parameter joined(separator: "-#-"), it will just stitch the strings together with specified separator.
+
+## Code example using joined(separator:).
+
+let elements = ["A1", "B2", "C3", "D4"]
+
+let joinedElements = elements.joined(separator: "+")
+
+//Result is "A1+B2+C3+D4"
+
 
 ##  Availability  
 
