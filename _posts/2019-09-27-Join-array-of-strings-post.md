@@ -11,13 +11,14 @@ overlay: red
 published: true
 ---
 
-## Heading
+## How to join an array of strings into a single string
+
 If you have an array of strings and want to merge all the elements into a single string, you should use joined().
-{: .lead}
+<!–-break-–>
 
-## Example
+## Code example
 
-~~~
+~~~swift
 
 let elements = ["A1", "B2", "C3", "D4"]
 
@@ -26,5 +27,5 @@ let joinedElements = elements.joined()
 //Result is "A1B2C3D4"
 ~~~
 
-
+<!–-break-–>
 Available from iOS 7.0
