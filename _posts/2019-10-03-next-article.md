@@ -1,40 +1,27 @@
 ---
 layout: post
-title: "Join an array of strings into a single string"
+title: "How to split a string into an array"
 tags:
   - string
   - merge
-hero: https://images.unsplash.com/photo-1529156069898-49953e39b3ac
-overlay: orange
+hero: https://images.unsplash.com/photo-1489575623533-95058aaa3685
+overlay: purple
 published: true
 ---
 
-## How to join an array of strings into a single string
+## How to split a string
 
-If you have an array of strings and want to merge all the elements into a single string, you should use joined().
+You can convert a string to an array of substrings by breaking it up using the components(separatedBy:) method. It can split a string by space, but also by any character set you need.
+
 {: .lead}
 <!–-break-–>
-## Code example using joined().
+## Code example using components(separatedBy:).
 
-let elements = ["A1", "B2", "C3", "D4"]
+let myString = "A1,B2,C3,D4"
 
-let joinedElements = elements.joined()
+let substringsArray = myString.components(separatedBy: ",")
 
-//Result is "A1B2C3D4"
-
-
-## Join strings together using a separator
-
-Also, you can call joined with the parameter joined(separator: "-#-"), it will just stitch the strings together with specified separator.
-
-## Code example using joined(separator:).
-
-let elements = ["A1", "B2", "C3", "D4"]
-
-let joinedElements = elements.joined(separator: "+")
-
-//Result is "A1+B2+C3+D4"
-
+//Result is  ["A1", "B2", "C3", "D4"]
 
 ##  Availability  
 
