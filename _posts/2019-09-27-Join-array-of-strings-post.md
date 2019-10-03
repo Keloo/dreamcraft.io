@@ -15,7 +15,7 @@ If you have an array of strings and want to merge all the elements into a single
 
 ## Code example
 
-~~~swift
+~~~
 let elements = ["A1", "B2", "C3", "D4"]
 
 let joinedElements = elements.joined()
