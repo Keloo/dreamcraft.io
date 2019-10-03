@@ -5,12 +5,12 @@ url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : dactl
+  title                      : dreamcraft
   description                  : >
-                               this should contain a proper description
+                               We are crafting dreams since 2015.
 
 # Layout configuration
-  logo_path                  : "assets/img/dactl.svg" # path to logo file
+  logo_path                  : #"assets/img/dactl.svg" # path to logo file
   search_path                : # "yourgitusername.github.io"
                                # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
@@ -26,9 +26,9 @@ blog:
 
 # Author info
 author:
-  fullname                  : Your Name
+  fullname                  : dreamcraft team
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : your@email.com # change to your e-mail address
+  mail                      : dragos.resetnic@gmail.com # change to your e-mail address
   twitter                   : twitter-user-name
   github                    : github-user-name
   youtube                   : youtube-user-name
