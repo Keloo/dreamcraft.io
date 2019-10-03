@@ -5,9 +5,9 @@ tags:
   - string
   - merge
 description: >
-How to join an array of strings into a single string
-hero: https://images.unsplash.com/photo-1495653797063-114787b77b23
-overlay: red
+How to join an array of strings into a single string.
+hero: https://source.unsplash.com/collection/145103/
+overlay: green
 published: true
 ---
 
@@ -28,4 +28,7 @@ let joinedElements = elements.joined()
 ~~~
 
 <!–-break-–>
+
+##    
+
 Available from iOS 7.0
