@@ -29,11 +29,11 @@ author:
   fullname                  : dreamcraft team
   rss                       : true # generate RSS feed and show it's icon in header
   mail                      : dragos.resetnic@gmail.com # change to your e-mail address
-  twitter                   : twitter-user-name
-  github                    : github-user-name
-  youtube                   : youtube-user-name
+  #twitter                   : twitter-user-name
+  #github                    : github-user-name
+  #youtube                   : youtube-user-name
   stackoverflow             : stackoverflow-user-name
-  disqus                    : dactl # your disqus site name
+  #disqus                    : dactl # your disqus site name
   google_analytics          : # 'UA-XXXXXXXX-X'
   photo                     : "uploads/me2.png"
   photo2x                   : "uploads/me.png"

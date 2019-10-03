@@ -12,7 +12,6 @@ published: true
 ## How to join an array of strings into a single string
 
 If you have an array of strings and want to merge all the elements into a single string, you should use joined().
-<!–-break-–>
 
 ## Code example
 
