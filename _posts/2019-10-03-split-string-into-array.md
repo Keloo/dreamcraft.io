@@ -3,7 +3,8 @@ layout: post
 title: "How to split a string into an array"
 tags:
   - string
-  - merge
+  - split
+  - array
 hero: https://images.unsplash.com/photo-1489575623533-95058aaa3685
 overlay: purple
 published: true
