@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Join an array of strings into a single string
+title: "Join an array of strings into a single string"
 tags:
   - string
   - merge
