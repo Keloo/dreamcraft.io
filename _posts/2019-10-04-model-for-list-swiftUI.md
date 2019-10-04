@@ -20,10 +20,12 @@ Lists work with identifiable data. You can make your data identifiable in one 
 import SwiftUI
 
 struct Contact{
-    let uid: UUID // unique property
-    public let firstName: String
-    public let secondName: String
-}
+
+let uid: UUID // unique property
+public let firstName: String
+public let secondName: String
+    
+}{: .notice}
 
 struct ContactsList: View {
     
@@ -36,7 +38,7 @@ var body: some View {
             }
         }
     }
-}
+}{: .notice}
 
 
 
@@ -44,19 +46,19 @@ var body: some View {
 
 This protocol has only one requirement, which is that conforming types must have a property called id that can identify them uniquely.
 
-import SwiftUI
-
-struct Contact: Identifiable{    
+> import SwiftUI
+>
+>struct Contact: Identifiable{    
     let id: UUID
     public let firstName: String
     public let secondName: String
 }
-
-struct ContactsList: View {
-
-var contacts:[Contact] = []
-    
-var body: some View {
+>
+>struct ContactsList: View {
+>
+>var contacts:[Contact]
+>    
+>var body: some View {
         List {
             ForEach(contacts) { contact in
                 Text("\(contact.secondName) \(contact.firstName)")
