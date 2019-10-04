@@ -19,13 +19,13 @@ Lists work with identifiable data. You can make your data identifiable in one 
 
 import SwiftUI
 
->    struct Contact{
+>    ~~~struct Contact{
 >
 >    let uid: UUID // unique property
       public let firstName: String
      public let secondName: String
 >    
->    }
+>    ~~~}
 
 struct ContactsList: View {
     
