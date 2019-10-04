@@ -16,13 +16,15 @@ Lists work with identifiable data. You can make your data identifiable in one 
 
 ## Passing a key path to a property that uniquely identifies each element.
 
-<pre><code>import SwiftUI
+<pre><code>
+import SwiftUI
 
 struct Contact{
 
 let uid: UUID // unique property
 public let firstName: String
 public let secondName: String
+
 }
 
 struct ContactsList: View {
@@ -44,6 +46,7 @@ var body: some View {
 
 This protocol has only one requirement, which is that conforming types must have a property called id that can identify them uniquely.
 
+<pre><code>
 import SwiftUI
 
 struct Contact: Identifiable{    
@@ -64,7 +67,7 @@ var body: some View {
         }
     }
 }
-
+</code></pre>
 
 
 ##  Availability  
