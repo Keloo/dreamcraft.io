@@ -16,7 +16,7 @@ Lists work with identifiable data. You can make your data identifiable in one 
 
 ## Passing a key path to a property that uniquely identifies each element.
 
-<pre>import SwiftUI
+<pre><code>import SwiftUI
 
 struct Contact{
 
@@ -37,7 +37,7 @@ var body: some View {
         }
     }
 }
-</pre>
+</code></pre>
 
 
 ## Making your data type conform to the Identifiable protocol
