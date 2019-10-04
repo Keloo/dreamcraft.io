@@ -16,12 +16,13 @@ If you have an array of strings and want to merge all the elements into a single
 <!–-break-–>
 ## Code example using joined().
 
+<pre><code>
 let elements = ["A1", "B2", "C3", "D4"]
 
 let joinedElements = elements.joined()
 
 //Result is "A1B2C3D4"
-
+</code></pre>
 
 ## Join strings together using a separator
 
@@ -29,12 +30,13 @@ Also, you can call joined with the parameter joined(separator: "-#-"), it will j
 
 ## Code example using joined(separator:).
 
+<pre><code>
 let elements = ["A1", "B2", "C3", "D4"]
 
 let joinedElements = elements.joined(separator: "+")
 
 //Result is "A1+B2+C3+D4"
-
+</code></pre>
 
 ##  Availability  
 
