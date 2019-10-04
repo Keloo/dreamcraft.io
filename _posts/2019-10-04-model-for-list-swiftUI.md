@@ -17,30 +17,26 @@ Lists work with identifiable data. You can make your data identifiable in one 
 ## Passing a key path to a property that uniquely identifies each element.
 
 
+import SwiftUI
 
-    import SwiftUI
+struct Contact{
+    let uid: UUID // unique property
+    public let firstName: String
+    public let secondName: String
+}
 
-    struct Contact{
-
-        let uid: UUID // unique property
-        public let firstName: String    
-        public let secondName: String
+struct ContactsList: View {
     
-    }
-
-    struct ContactsList: View {
+var contacts:[Contact] = []
     
-        var contacts:[Contact] = []
-    
-        var body: some View {
-            List {
-                ForEach(contacts, id: \.uid) { contact in
-                    Text("\(contact.secondName) \(contact.firstName)")
-                    }
-                }
+var body: some View {
+        List {
+            ForEach(contacts, id: \.uid) { contact in
+                Text("\(contact.secondName) \(contact.firstName)")
+            }
         }
     }
-
+}
 
 
 
@@ -58,9 +54,9 @@ struct Contact: Identifiable{
 
 struct ContactsList: View {
 
-    var contacts:[Contact] = []
+var contacts:[Contact] = []
     
-    var body: some View {
+var body: some View {
         List {
             ForEach(contacts) { contact in
                 Text("\(contact.secondName) \(contact.firstName)")
