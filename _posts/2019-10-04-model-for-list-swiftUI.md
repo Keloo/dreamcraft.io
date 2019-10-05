@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SwiftUI - Preparing a model for a List."
+title: "SwiftUI - Preparing a model for a List. Fixing: on 'ForEach' requires that 'YourModel' conform to 'Identifiable'"
 tags:
   - Identifiable
   - SwiftUI
