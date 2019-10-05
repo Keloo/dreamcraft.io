@@ -18,13 +18,13 @@ You can convert a string to an array of substrings by breaking it up using the c
 <!–-break-–>
 ## Code example using components(separatedBy:).
 
-<pre><code>
+```swift
 let myString = "A1,B2,C3,D4"
 
 let substringsArray = myString.components(separatedBy: ",")
 
 //Result is  ["A1", "B2", "C3", "D4"]
-</code></pre>
+```
 
 ##  Availability  
 
