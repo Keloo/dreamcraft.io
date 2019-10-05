@@ -85,7 +85,6 @@ highlighter: rouge
 # More › http://kramdown.gettalong.org/quickref.html
 # Options › http://kramdown.gettalong.org/options.html
 kramdown:
-  input: kramdown
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     span:
