@@ -86,6 +86,7 @@ highlighter: rouge
 # Options › http://kramdown.gettalong.org/options.html
 kramdown:
   input:          GFM
+  syntax_highlighter: rouge
 
 # Sass settings
 sass:
