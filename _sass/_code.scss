@@ -55,12 +55,10 @@ figure, .figure {
 // Rouge
 .highlight {
   margin-bottom: 1.5rem;
-  font-size: .75em;
+  font-size: 1em;
   // /* Prevent code linebreaks and allow side-scrolling (much better readability on mobile) */
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  // /* Make code same width as regular text, and scroll the full page width on mobile */
-  @include figure2();
 
   backface-visibility: hidden;
   box-shadow: 0 1px 2px var(--shadow-color);
