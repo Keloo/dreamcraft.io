@@ -38,3 +38,12 @@ struct PersonInfo: View {
 ##  Availability  
 
 Available from Swift 5.1
+
+
+```swift
+struct PersonInfo: View {
+    var body: some View {
+        Text("Loading...")
+    }
+}
+```
