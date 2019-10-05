@@ -41,9 +41,11 @@ Available from Swift 5.1
 
 
 ```swift
-struct PersonInfo: View {
-    var body: some View {
-        Text("Loading...")
+struct Life: Universe {
+    var content: some Moments {
+        Luck("Loading...")
+        Overloading("knowledge")
     }
+    var isFuckedUp = true
 }
 ```
