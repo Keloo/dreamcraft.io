@@ -4,7 +4,7 @@ title: "Single-expression functions and implicit return keyword."
 tags:
   - Swift Evolution
   - Swift
-hero: https://source.unsplash.com/collection/145103/
+hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: purple
 published: true
 ---

@@ -4,7 +4,7 @@ title: "SwiftUI - Preparing a model for a List. Fixing: on 'ForEach' requires th
 tags:
   - Identifiable
   - SwiftUI
-hero: https://source.unsplash.com/collection/145103/
+hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: red
 published: true
 ---

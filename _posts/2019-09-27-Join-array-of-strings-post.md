@@ -4,7 +4,7 @@ title: "Join an array of strings into a single string"
 tags:
   - string
   - merge
-hero: https://images.unsplash.com/photo-1529156069898-49953e39b3ac
+hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: orange
 published: true
 ---
