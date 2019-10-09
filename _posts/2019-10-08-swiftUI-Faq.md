@@ -1,17 +1,19 @@
 ---
 layout: post
-title: "SwiftUI FAQ"
+title: "Frequently asked questions about SwiftUI"
 tags:
   - Swift Evolution
   - Codable
   - SwiftUI
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
-overlay: brown
+overlay: green
 published: true
 ---
 
 ## What is SwiftUI?
  SwiftUI is a revolutionary development framework that makes building powerful user interfaces easier than ever before.  Using simple, easy-to-understand declarative code, developers can create stunning, full-featured user interfaces complete with smooth animations.
+ {: .lead}
+ <!–-break-–>
 
 ## Declarative vs. Imperative UI
 In declarative UI, you describe how UI should be like rather than an imperative way where you code the steps to create it.
