@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Codable - converting between JSON and Swift types"
+title: "SwiftUI Stack types - Views that arranges their children"
 tags:
   - Swift Evolution
   - SwiftUI
