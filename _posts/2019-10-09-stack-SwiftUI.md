@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SwiftUI Stack types - Views that arranges their children"
+title: "SwiftUI Stack views - Views that arranges their children"
 tags:
   - Swift Evolution
   - SwiftUI
