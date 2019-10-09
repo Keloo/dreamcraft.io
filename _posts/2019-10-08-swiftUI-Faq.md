@@ -3,7 +3,6 @@ layout: post
 title: "Frequently asked questions about SwiftUI"
 tags:
   - Swift Evolution
-  - Codable
   - SwiftUI
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: green
