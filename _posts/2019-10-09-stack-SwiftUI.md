@@ -14,7 +14,7 @@ SwiftUI have three stack types that allow you to arrange stack children on three
 {: .lead}
 <!–-break-–>
 
-![393x700](https://dreamcraft.io/assets/img/postImages/stackExample.png "Large example image"){:.lead}
+![200x350](https://dreamcraft.io/assets/img/postImages/stackExample.png "Large example image"){:.lead}
 
 ```swift
 struct StackExamples: View {
