@@ -15,7 +15,7 @@ published: true
  <!–-break-–>
 
 ## Declarative vs. Imperative UI
-In declarative UI, you describe how UI should be like rather than an imperative way where you code the steps to create it.
+In declarative UI, you describe how UI should be like rather than an imperative way where you build your UI piece by piece(starting from allocating the views and adding them as subviews and ending with configuring how they look). 
 
 ## How performant SwiftUI is?
  SwiftUI apps run natively and are lightning-fast.
