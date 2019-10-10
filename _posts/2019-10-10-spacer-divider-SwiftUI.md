@@ -66,7 +66,7 @@ struct DividerExample: View {
 ## Same circumstances, different behaviour.
 
 
-In the following example, we have a **divider**(between orange and blue) and a **spacer**(between red and green) with a fixed frame and embedded in VStacks. We can see that even with zero width and zero height applied on the divider between orange and blue color, we have a space of 10 pixels.
+In the following example, we have a **divider**(between orange and blue) and a **spacer**(between red and green) with a fixed frame and embedded in VStacks. We can see that even with zero width and zero height applied on the divider between orange and blue color, we have a space with height of 10 pixels.
 
 <img src="https://dreamcraft.io/assets/img/postImages/dividerVsSpacer.png" style="width: 25%; height: 25%"/>​
 ```swift
