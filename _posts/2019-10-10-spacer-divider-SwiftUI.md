@@ -11,7 +11,7 @@ published: true
 
 **Spacer** and **divider** are used to separate content. They may have the same purpose, but under the same circumstances, they may behave differently. Let's figure it out.
 {: .lead}
-
+<!–-break-–>
 ## Spacer
 
 A flexible space that expands along the **major axis** of its containing stack layout, or on **both axes** if not contained in a stack.
