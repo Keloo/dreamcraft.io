@@ -18,7 +18,7 @@ A flexible space that expands along the **major axis** of its containing stack l
 
 <img src="https://dreamcraft.io/assets/img/postImages/spacerExample.png" style="width: 25%; height: 25%"/>​
 ```swift
-struct SpacerDividerExample: View {
+struct SpacerExample: View {
 
     var body: some View {
         HStack{
