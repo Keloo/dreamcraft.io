@@ -26,7 +26,7 @@ blog:
 
 # Author info
 author:
-  fullname                  : dreamcraft team
+  fullname                  : Resetnic Dragos
   rss                       : true # generate RSS feed and show it's icon in header
   mail                      : dragos.resetnic@gmail.com # change to your e-mail address
   #twitter                   : twitter-user-name
