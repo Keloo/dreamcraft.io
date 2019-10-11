@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SwiftUI: Spacers and Dividers"
+title: "SwiftUI: Xcode Previews"
 tags:
   - Swift Evolution
   - SwiftUI
