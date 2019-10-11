@@ -32,22 +32,23 @@ struct ExmpleView: View {
    
   var name: String
    
-  var body: some View {
+  var body: some View { //2
     Text("Hello \(name)!")
   }
 }
 
 
-struct ExmpleView_Previews: PreviewProvider { //2
-  static var previews: some View {
-    ExmpleView(name: "Peter") //3
+struct ExmpleView_Previews: PreviewProvider { //3
+  static var previews: some View { 
+    ExmpleView(name: "Peter") //4
   }
 }
 ```
 
 1. Implementing our Example view.
-2. Implementing a small type that conforms to a PreviewProvider protocol, which is a part of a SwiftUI framework.
-3. You are telling Xcode what view to preview and how to configure the data.
+2. [More about **some** keyword](https://dreamcraft.io/posts/opaque-return-return-types)
+3. Implementing a small type that conforms to a PreviewProvider protocol, which is a part of a SwiftUI framework.
+4. You are telling Xcode what view to preview and how to configure the data.
 
 
 ## Tip
