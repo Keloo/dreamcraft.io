@@ -46,7 +46,7 @@ struct ExmpleView_Previews: PreviewProvider { //3
 ```
 
 1. Implementing our Example view.
-2. [More about **some** keyword](https://dreamcraft.io/posts/opaque-return-return-types)
+2. [Click here for more info about **opaque return types** and **some** keyword.](https://dreamcraft.io/posts/opaque-return-return-types)
 3. Implementing a small type that conforms to a PreviewProvider protocol, which is a part of a SwiftUI framework.
 4. You are telling Xcode what view to preview and how to configure the data.
 
