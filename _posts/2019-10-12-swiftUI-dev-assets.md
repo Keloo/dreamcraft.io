@@ -9,7 +9,7 @@ overlay: blue
 published: true
 ---
 
-When we work with  [**Xcode Previews**](https://dreamcraft.io/posts/swiftui-xcode-previews), we use placeholder data(like Strings) to populate our views. But for images, the story is a little bit more complicated.{: .lead}<!–-break-–> Yes, I could add an asset that's a placeholder asset for use in my previews. But that would mean that I would have to ship this asset with my application to my customers, which is not what we may want to do.
+When we work with  [**Xcode Previews**](https://dreamcraft.io/posts/swiftui-xcode-previews), we use placeholder data(like Strings) to populate our views. But for images, the story is a little bit more complicated.<!–-break-–> Yes, I could add an asset that's a placeholder asset for use in my previews. But that would mean that I would have to ship this asset with my application to my customers, which is not what we may want to do.
 Xcode 11 has a new feature called **"Development Assets"** that's going to help us with this.
 Open the **Project Editor**, and under **Targets** in general, scroll down to **Development Assets**.
 <img src="https://dreamcraft.io/assets/img/devAssets/devAssets.png" style="width: 70%; height: 50%"/>​
