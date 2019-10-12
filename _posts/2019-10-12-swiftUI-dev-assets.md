@@ -16,4 +16,4 @@ Open the **Project Editor**, and under **Targets** in general, scroll down to **
 <img src="https://dreamcraft.io/assets/img/devAssets/devAssets.png" style="width: 85%; height: 85%"/>​
 You will notice that I already pre-configured Preview Assets as a catalog here, which will hold my 8Bit image.
 <img src="https://dreamcraft.io/assets/img/devAssets/privewAssets.png" style="width: 85%; height: 85%"/>​
-If you are starting from scratch and you are using one of our new templates, this will come pre-configured for you. But if you are working on an existing application, you can easily add this here.
+If you are starting from scratch and you are using one of Xcode templates, this will come pre-configured for you. But if you are working on an existing application, you can easily add this here.
