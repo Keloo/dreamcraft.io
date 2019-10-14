@@ -11,7 +11,7 @@ published: true
 Since I played with Xcode Previews and SwiftUI, I was impressed how great those two works together. But once I opened my existing project that was written with UIKit(even if I am using [code injection](https://github.com/johnno1962/InjectionIII) to optimize my workflow). I was wondering if Xcode Previews can do the same excellent job with my existing code. After a little research, the answer was yes.<!–-break-–>
 
 For that purpose, we will use an existing project ["GitFeed"](https://github.com/dresetnic/GitFeed) We are going to put our cell form the feed in the Xcode Previews.
-<img src="https://dreamcraft.io/assets/img/uikitpreview/feed.png" style="width: 85%; height: 85%"/>​
+<img src="https://dreamcraft.io/assets/img/uikitpreview/feed.png" style="width: 50%; height: 50%"/>​
 It turns out that that cell from feed was written as a UITableViewCell called GFFeedTableViewCell.
 Previews are just code, so we absolutely could go ahead and create the preview right alongside this UITableViewCell in this file. 
 
@@ -68,5 +68,5 @@ We'll return an instance of the type that conforms to UIViewRepresentable(we wil
  
 With just those few lines of code, you can see a preview for your UIView in Xcode.
 
-<img src="https://dreamcraft.io/assets/img/uikitpreview/cellpreview.png" style="width: 85%; height: 85%"/>​
+<img src="https://dreamcraft.io/assets/img/uikitpreview/cellpreview.png" style="width: 50%; height: 50%"/>​
 
