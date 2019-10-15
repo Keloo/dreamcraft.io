@@ -8,7 +8,7 @@ hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: yellow
 published: true
 ---
-By default, Xcode Previews will show you view inside the device that was selected as the run destination. After changing the run destination to another device, the canvas will immediately show our view in the selected device. In that tutorial, I will show you how can we check all devices without changing the run destination
+By default, Xcode Previews will show you view inside the device that was selected as the run destination. After changing the run destination to another device, the canvas will immediately show our view in the selected device. In that tutorial, I will show you how to check all devices without changing the run destination
 <!–-break-–>
 
 ```swift
@@ -28,11 +28,11 @@ struct Example_Previews: PreviewProvider {
   }
 }
 ```
-There is a Previews API provided named preview device. You pass to that method the name of the device you want to see a preview on. And almost immediately in the canvas, you will see the device displaying your view.
+There is a Previews API provided named **previewDevice**. You pass to that method the name of the device you want to see a preview on. And almost immediately in the canvas, you will see the device displaying your view.
  ```swift
  struct Example_Previews: PreviewProvider {
    static var previews: some View {
-     ExampleView().previewDevice("iPhone 8")
+     ExampleView().previewDevice("iPhone 7")
    }
  }
  ```
@@ -53,7 +53,7 @@ There is a Previews API provided named preview device. You pass to that method t
 |                          | iPad mini (5th generation)                   |                                                  |||
 |                          |iPad Air (3rd generation)                      |                                                   |||
 
-But again, we need to change the argument to view our ExampleView on different devices. Luckily there is a better way. We can embed this view in a group. Then add two instances of the ExampleView to it, this time calling preview device with iPhone X and iPhone Xʀ. And almost immediately, we will see in the canvas a preview for our ExampleView running on three devices.
+But again, we need to change the argument to view our ExampleView on different devices. Luckily there is a better way. We can embed this view in a group. Then add two instances of the ExampleView to it, this time calling preview device with iPhone X and iPhone Xʀ. We will see in the canvas a preview for our ExampleView running on three devices.
 
 ```swift
 struct Example_Previews: PreviewProvider {
