@@ -4,6 +4,7 @@ title: "Join an array of strings into a single string"
 tags:
   - string
   - merge
+  - How to
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: orange
 published: true

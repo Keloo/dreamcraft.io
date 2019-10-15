@@ -5,6 +5,7 @@ tags:
   - string
   - split
   - array
+  - How to
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: purple
 published: true

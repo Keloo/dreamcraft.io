@@ -4,6 +4,7 @@ title: "Preview your UIView (UIKit) with Xcode Previews."
 tags:
   - Swift Evolution
   - SwiftUI
+  - How to
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: blue
 published: true
@@ -43,10 +44,10 @@ We'll return an instance of the type that conforms to UIViewRepresentable(we wil
  
  3. We need to implement is updateUIView. In our case, we want to create a preview, so I am going to leave this implementation blank.
  
+ ```swift
  import SwiftUI
 
  struct FeedTableViewCellPreview: PreviewProvider, UIViewRepresentable {
- ```swift
 
      // MARK: PreviewProvider
      
