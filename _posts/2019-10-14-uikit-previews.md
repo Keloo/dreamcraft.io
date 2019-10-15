@@ -37,9 +37,11 @@ We'll return an instance of the type that conforms to UIViewRepresentable(we wil
 
  Now for our purposes, the UIView representable protocol has three requirements that we need to implement. 
 
- 1.Specify the type of UIView that's being represented. In our case, that's the GFFeedTableViewCell.
- 2.Describe how to create GFFeedTableViewCell.
- 3.We need to implement is updateUIView. In our case, we want to create a preview, so I am going to leave this implementation blank.
+ 1. Specify the type of UIView that's being represented. In our case, that's the GFFeedTableViewCell.
+ 
+ 2. Describe how to create GFFeedTableViewCell.
+ 
+ 3. We need to implement is updateUIView. In our case, we want to create a preview, so I am going to leave this implementation blank.
  
  import SwiftUI
 
