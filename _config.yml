@@ -5,9 +5,9 @@ url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : dreamcraft
+  title                      : Dreamcraft
   description                  : >
-                               We are crafting dreams since 2015.
+                               Crafting dreams since 2015.
 
 # Layout configuration
   logo_path                  : #"assets/img/dactl.svg" # path to logo file
