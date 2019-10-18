@@ -15,11 +15,11 @@ According to a few researches ( in example [PSPDFKit research](https://twitter.c
 ```swift
 struct ExampleView: View {
     var body: some View {
-            VStack{
-                Color.green
-                Text("Dreamcraft.io").foregroundColor(.black).fontWeight(.black)
-                Color.blue
-            }
+        VStack{
+            Color.green
+            Text("Dreamcraft.io").foregroundColor(.black).fontWeight(.black)
+            Color.blue
+        }
     }
 }
 ```
