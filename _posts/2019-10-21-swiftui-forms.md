@@ -21,7 +21,7 @@ struct ExampleView: View {
   }
 }
 ```
-This one will appear as it were inside a table view cell with a `UITableViewStyleGrouped`, but if this Text were wrapped in a `VStack`, it would stay centered as a conclusion `Forms` are scrolling lists of views like buttons, colors, images, texts. We can see that by trying the following example.
+This one will appear as it were inside a table view cell with a `UITableViewStyleGrouped`, but if this Text were wrapped in a `VStack`, it would stay centered. As a conclusion `Forms` are scrolling lists of views like buttons, colors, images, texts. We can see that by trying the following example.
 
 ```swift
 struct ExampleView: View {
