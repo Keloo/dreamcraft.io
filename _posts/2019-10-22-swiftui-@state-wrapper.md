@@ -5,7 +5,7 @@ tags:
   - Swift Evolution
   - SwiftUI
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
-overlay: pink
+overlay: black
 published: true
 ---
 Property wrapper, is a powerful new feature in Swift 5.1. When you add the Property Wrapper, you're wrapping this property and augment it with some additional behavior when it's read or written. `@State` is one of the property wrappers provided by SwiftUI.
