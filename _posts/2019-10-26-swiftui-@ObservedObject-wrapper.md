@@ -16,7 +16,7 @@ class Parameters: ObservableObject{
   @Published var showColdColor: Bool = false
 }
 ```
-In the following example, we see that we should pass our Parameters to the ExtractedView. Wich is no the case for `@EnvironmentObject`.
+In the following example, we see that we should pass (🔥) our Parameters to the ExtractedView. Wich is not the case for `@EnvironmentObject`.
 
 ```swift    
 struct ExampleView: View {
@@ -29,7 +29,7 @@ struct ExampleView: View {
             } else   {
                 Color.red
             }
-            ExtractedView(parameters: parameters)
+            ExtractedView(parameters: parameters) //🔥
         }
     }
 }
