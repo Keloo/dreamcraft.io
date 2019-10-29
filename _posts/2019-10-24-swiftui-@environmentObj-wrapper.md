@@ -14,9 +14,10 @@ The `EnvironmentObject` (Parameters) that we plan to share through our views sho
 
 ```swift
 class Parameters: ObservableObject{
-    @Published var showColdColor: Bool = false
+    @Published var showColdColor: Bool = false //1
 }
 ```
+1.  `@Published` property wrapper augments properties by adding **willSet** observer. [You can read here about @Published](https://dreamcraft.io/posts/swiftui-published-wrapper).
 
 Once we have set up our object, we will create our property in all views that need that data with `@EnvironmentObject` property wrapper without providing a default value.
 
