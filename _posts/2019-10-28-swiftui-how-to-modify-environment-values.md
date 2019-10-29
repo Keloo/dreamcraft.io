@@ -33,4 +33,4 @@ func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options conn
 }
 ```
 
-For example, if we change **multilineTextAlignment** to **.center** in the `Environment` values in one of our children's views, then all its children's views will have **multilineTextAlignment** in their `Environment` set to **center**.
+For example, if we change **multilineTextAlignment** to **.center** in the `Environment` values in one of our children's views, then all its children's views will have **multilineTextAlignment** in their `Environment` set to **center** while all previous views will have that value set to **leading**.
