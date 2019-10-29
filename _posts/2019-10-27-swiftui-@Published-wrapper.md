@@ -5,7 +5,7 @@ tags:
   - Swift Evolution
   - SwiftUI
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
-overlay: green
+overlay: red
 published: true
 ---
 `@Published` is a property wrapper, that was introduced in Swift 5.1. `@Published` property wrapper augments properties by adding **willSet** observer.<!–-break-–>

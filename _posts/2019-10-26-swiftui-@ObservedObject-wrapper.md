@@ -5,7 +5,7 @@ tags:
   - Swift Evolution
   - SwiftUI
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
-overlay: green
+overlay: red
 published: true
 ---
 `@ObservedObject` is one of SwiftUI property wrappers which came up in Swift 5.1. If we have data that should be shared between multiple views, and all of them should automatically update when data changes, then `@ObservedObject` is our way to go.<!–-break-–>
