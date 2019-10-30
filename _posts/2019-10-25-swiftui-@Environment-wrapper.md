@@ -19,4 +19,5 @@ All system settings and app-specific stuff except our EnvironmentObjects are pre
 @Environment(\.colorScheme) var colorScheme
 ```
 [Here](https://developer.apple.com/documentation/swiftui/environmentvalues), you can check the full collection of environmental values.
+[Suggested post: how to set Environment predefined environment values](https://dreamcraft.io/posts/swiftui-how-to-modify-environment-values)
 
