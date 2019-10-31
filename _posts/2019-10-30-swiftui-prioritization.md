@@ -28,8 +28,9 @@ struct ExampleView: View {
 
 <img src="https://dreamcraft.io/assets/img/priorityPost/broken.png" style="width: 50%; height: 50%"/>​
 
+[Here you can find  how to check that your app looks great on all devices.](https://dreamcraft.io/posts/previews-multiple-devices)
 
-This example shows how the same elements may look different on different displays. To fix that, we need to raise the layout priority of our important text view. To define the priority of an element, you can use the `layout priority`. If a UI is displayed on a small screen, items with low priority can automatically be hidden. To define importance, you can pass a Double.
+This example shows how the same elements may look different on smaller displays. To fix that, we need to raise the layout priority of our important text view. To define the priority of an element, you can use the `layout priority`. If a UI is displayed on a small screen, items with low priority can automatically be hidden. To define importance, you can pass a Double.
 
 ```swift
 struct ExampleView: View {
