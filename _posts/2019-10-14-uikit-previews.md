@@ -34,7 +34,7 @@ struct FeedTableViewCellPreview: PreviewProvider {
 
 We'll return an instance of the type that conforms to UIViewRepresentable(we will add that in the next steps), namely, FeedTableViewCellPreview.
 
- SwiftUI has rich support for embedding UIViews into SwiftViews in the form of Representable. In our case, we want to add a conformant to UIViewRepresentable.
+SwiftUI has rich support for embedding UIViews into SwiftViews in the form of Representable. In our case, we want to add a conformant to UIViewRepresentable. [More about UIViewRepresentable and how to use any UIView in SwiftUI.](https://dreamcraft.io/posts/swiftui-uiview)
 
  Now for our purposes, the UIView representable protocol has three requirements that we need to implement. 
 
