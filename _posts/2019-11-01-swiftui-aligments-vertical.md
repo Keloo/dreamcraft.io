@@ -11,19 +11,20 @@ published: true
 Alignments are critical in the building of the UI. While SwiftUI spacing between UI elements follows the Human Interface Guidelines by Apple out of the box,  some  UI elements need some adjustments to they positing regarding other UI elements. In this post, we will cover the basics of alignments. We have two types of alignments Horizontal and Vertical.<!–-break-–>
 
 ## Vertical Alignments.
-There are five types of vertical alignments, and we will cover each one by using the following example:
+In the following example, we have four colors and three texts with the background set up so we can see small but significant differences between those five types of alignments.
+
 <img src="https://dreamcraft.io/assets/img/alignments/center.png" style="width: 50%; height: 50%"/>​
 ```swift
 struct ExmpleView: View {
     var body: some View {
-        HStack{
-            Color.yellow.frame(width: 50, height: 10)
-            Text("Headline text!").font(.headline)
-            Color.red.frame(width: 50, height: 50)
-            Text("footnote text!").font(.footnote)
-            Color.green.frame(width: 50, height: 100)
-            Text("Caption text!").font(.caption)
-            Color.blue.frame(width: 50, height: 200)
+        HStack(){
+            Color.red.frame(width: 50, height: 10)
+            Text("Headline text!").font(.headline).foregroundColor(Color.white).background(Color.orange)
+            Color.yellow.frame(width: 50, height: 50)
+            Text("footnote text!").font(.footnote).foregroundColor(Color.white).background(Color.green)
+            Color.blue.frame(width: 50, height: 100)
+            Text("Caption text!").font(.caption).foregroundColor(Color.white).background(Color.pink)
+            Color.purple.frame(width: 50, height: 200)
         }
     }
 }
