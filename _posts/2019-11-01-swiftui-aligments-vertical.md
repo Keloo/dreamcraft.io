@@ -13,7 +13,7 @@ Alignments are critical in the building of the UI. While SwiftUI spacing between
 ## Vertical Alignments.
 In the following example, we have four colors and three texts with the background set up so we can see small but significant differences between those five types of alignments.
 
-<img src="https://dreamcraft.io/assets/img/alignments/center.png" style="width: 50%; height: 50%"/>​
+<img src="https://dreamcraft.io/assets/img/alignments/default.png" style="width: 50%; height: 50%"/>​
 ```swift
 struct ExmpleView: View {
     var body: some View {
