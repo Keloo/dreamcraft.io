@@ -12,9 +12,7 @@ Alignments are critical in the building of the UI. While SwiftUI spacing between
 
 ## Vertical Alignments.
 There are five types of vertical alignments, and we will cover each one by using the following example:
-
 <img src="https://dreamcraft.io/assets/img/alignments/center.png" style="width: 50%; height: 50%"/>​
-
 ```swift
 struct ExmpleView: View {
     var body: some View {
@@ -31,7 +29,6 @@ struct ExmpleView: View {
 }
 ```
 To demonstrate all alignments, we are going to add an alignment parameter to our HStack:
-
 ```swift
 struct ExmpleView: View {
     var body: some View {
@@ -41,57 +38,35 @@ struct ExmpleView: View {
     }
 }
 ```
-
 ## Top
-
 <img src="https://dreamcraft.io/assets/img/alignments/top.png" style="width: 50%; height: 50%"/>​
-
 ```swift
     HStack(alignment: .top) {...}
 ```
 ## Center
-
 <img src="https://dreamcraft.io/assets/img/alignments/center.png" style="width: 50%; height: 50%"/>​
-
 By default, we have a center alignment, and that is why it doesn't differ from our initial example. 
-
 ```swift
     HStack(alignment: .center) {...}
 ```
 Is equal to:
-
 ```swift
     HStack{...} 
 ```
-
 ## Bottom
-
 <img src="https://dreamcraft.io/assets/img/alignments/bottom.png" style="width: 50%; height: 50%"/>​
-
 ```swift
     HStack(alignment: .bottom) {...}
 ```
-
 ## Last Text Baseline
-
 <img src="https://dreamcraft.io/assets/img/alignments/lastTextBaseline.png" style="width: 50%; height: 50%"/>​
-
-In our example, we have Text is our HStack, but if we haven't got one, all views will align as we would pass **.bottom** alignment. 
-
+In our example, we have Text in our HStack, but if we haven't got one, all views will align as we would pass **.bottom** alignment. 
 ```swift
     HStack(alignment: .lastTextBaseline) {...}
 ```
-
-
 ## First Text Baseline
-
 <img src="https://dreamcraft.io/assets/img/alignments/firstTextBaseline.png" style="width: 50%; height: 50%"/>​
-
 As with the last text baseline, if we haven't got ani text in our HStack, then all views will align as we were passed **.bottom** alignment. 
-
 ```swift
     HStack(alignment: .firstTextBaseline) {...}
 ```
-
-
-
