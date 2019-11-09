@@ -10,11 +10,6 @@ published: true
 ---
 Gradients conform to view protocol, which means that we can drow them as any other view. SwiftUI provides us with three types of gradients: linear,  angular, and radial. Each type requires a few different parameters. 
 <!–-break-–>
-
-Use the following image as a guide for UnitPoint parameters.
-
-<img src="https://dreamcraft.io/assets/img/gradients/unitPoint.png" style="width: 60%; height: 60%"/>​
-
 Each of the mentioned gradients will require us to pass a spectrum of colors that we want to show. We can do that with a gradient. Represented as an array of colors, and yes we can pass as many colors as we wish to, SwiftUI will space them equally.
 ```swift
 let spectrum = Gradient(colors: [.red, .green, .blue])
@@ -49,4 +44,6 @@ struct SpectrumExample: View {
 4. Radial Gradient
 5. Text example with the linear gradient as the background.
 
+Use the following image as a guide for UnitPoint parameters.
 
+<img src="https://dreamcraft.io/assets/img/gradients/unitPoint.png" style="width: 60%; height: 60%"/>​
