@@ -32,6 +32,7 @@ struct PaddingExample: View {
 }
 ```
 Vertical - will keep top and bottom paddings
+
 Horizontal - will keep leading and trailing paddings
 
 
