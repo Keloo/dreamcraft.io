@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SwiftUI : About paddings and how to set size of a padding."
+title: "SwiftUI: About paddings and how to set size of a padding."
 tags:
   - Swift Evolution
   - SwiftUI
