@@ -129,6 +129,7 @@ struct Bubble: View {
 
 ## Tap gesture
 
+And the last but not least important gesture, the tap gesture. This one might be one of the most used.
 
 ```swift
 struct TapGestureExample: View {
@@ -138,7 +139,6 @@ struct TapGestureExample: View {
     var body: some View {
         
         let tapGesture = TapGesture().onEnded {
-            
             if self.scale == 1 {
                 self.scale = 1.5
             } else {
