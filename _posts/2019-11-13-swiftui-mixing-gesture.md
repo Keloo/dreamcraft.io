@@ -102,10 +102,10 @@ In this example, we are sequence long-press gesture before drag gesture, which m
 
 ## Exclusive
 
->When you combine gestures exclusively, SwiftUI recognizes the entire gesture pattern when SwiftUI only recognizes one subgesture but not the others.
+>A pair of gestures where only one can succeed, which gives precedence to the first of the pair.
+
 In our example, if we tap and hold on our circle more than one second and then try to drag, the drag gesture will be ignored. You can play by changing the order of exclusivity so you can better understand how SwiftUI ignores one in favor of exclusive gesture.
 
->A pair of gestures where only one can succeed, which gives precedence to the first of the pair.
 
 
 ```swift
