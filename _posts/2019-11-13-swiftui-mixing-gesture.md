@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SwiftUI gestures: Composing gestures or how do add multiple gesture recognizers."
+title: "SwiftUI gestures: Composing gestures or how do add and handle multiple gestures."
 tags:
   - Swift Evolution
   - SwiftUI
