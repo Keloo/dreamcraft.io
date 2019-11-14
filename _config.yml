@@ -6,8 +6,8 @@ url                          : "" # the base hostname & protocol for your site
 
 blog:
   title                      : Dreamcraft
-  description                : Swift Blog
- #                            Crafting dreams since 2015.
+  description                : >
+                               Crafting dreams since 2015.
 
 # Layout configuration
   logo_path                  : #"assets/img/dactl.svg" # path to logo file
