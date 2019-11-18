@@ -4,9 +4,14 @@
     <title>Logo</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <style>
-            @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap&subset=cyrillic,hebrew,latin-ext,vietnamese');
-        </style>
+        <style type="text/css">
+   <![CDATA[
+    @font-face {
+        font-family: Delicious;
+        src: url('http://nimbupani.com/demo/svgfonts/delicious-roman.otf');
+    }
+   ]]>
+ </style>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-19-Copy" transform="translate(-692.000000, -1413.000000)">
