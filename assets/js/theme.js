@@ -81,8 +81,12 @@ const switchTheme = () => {
   if (theme && currentTheme === NightTheme.themeName) {
     updateTheme(LightTheme)
     el.className = iconForTheme(LightTheme.themeName)
+    document.getElementById('logo_w').style.display = "block"
+    document.getElementById('logo_b').style.display = "none"
   } else {
     updateTheme(NightTheme)
+    document.getElementById('logo_w').style.display = "none"
+    document.getElementById('logo_b').style.display = "block"
     el.className = iconForTheme(NightTheme.themeName)
   }
 }
