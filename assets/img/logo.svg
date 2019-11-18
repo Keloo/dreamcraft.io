@@ -8,7 +8,7 @@
    <![CDATA[
     @font-face {
         font-family: Delicious;
-        src: url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap&subset=cyrillic,hebrew,latin-ext,vietnamese');
+        src: url('http://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap&subset=cyrillic,hebrew,latin-ext,vietnamese');
     }
    ]]>
  </style>
