@@ -5,7 +5,7 @@ url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  #title                      : Dreamcraft
+  title                      : Dreamcraft
   description                : Crafting dreams since 2015.
 
 # Layout configuration
