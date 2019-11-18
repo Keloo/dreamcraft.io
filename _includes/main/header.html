@@ -1,14 +1,14 @@
 <header>
     <div class="menu">
+        <a href="{{ '/' | prepend: site.baseurl }}">
       <div class="logo">
 
         <!-- <a href="{{ '/' | prepend: site.baseurl }}">{{ site.blog.title }}</a> -->
-        <a href="{{ '/' | prepend: site.baseurl }}">
             <object type="image/svg+xml" data="{{ site.blog.logo_path | relative_url }}" class="logosvg">
                 Your browser does not support svg images
             </object>
-        </a>
       </div>
+        </a>
         <ul>
             <li><a href="{{ '/about' | prepend: site.baseurl }}">about</a></li>
             <li><a href="{{ '/archive' | prepend: site.baseurl }}">archive</a></li>
