@@ -10,7 +10,7 @@ blog:
 
 # Layout configuration
   logo_path                  : "assets/img/logo.png" # path to logo file
-  search_path                : # "yourgitusername.github.io"
+  search_path                :  "dreamcraft.io"
                                # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
@@ -27,11 +27,11 @@ blog:
 author:
   fullname                  : Resetnic Dragos
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : dragos.resetnic@gmail.com # change to your e-mail address
-  #twitter                   : twitter-user-name
+  mail                      : hello@dreamcraft.io # change to your e-mail address
+  twitter                   : @DragosResetnic
   #github                    : github-user-name
   #youtube                   : youtube-user-name
-  stackoverflow             : stackoverflow-user-name
+  stackoverflow             :  2735673
   #disqus                    : dactl # your disqus site name
   google_analytics          : 'UA-151204914-1'
   photo                     : "uploads/me2.png"
