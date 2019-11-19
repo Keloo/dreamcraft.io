@@ -16,7 +16,7 @@ SwiftUI provides us with various modifiers for drawing borders on views and shap
  Outside is where the entire border wraps around the object. Inside is where it sits on the inside and center being half and half.
 
  
- ## For Shapes, use Stroke or Stroke Border modifier.
+##  For Shapes, use **Stroke** or **Stroke Border** modifier.
 
 ## Stroke
 The stroke modifier draws borders centered(half inside half outside).
@@ -27,6 +27,7 @@ Rectangle()
 ```
 
 ## Stroke Border
+
 Stroke Border draws border inside a shape.
 
 ```swift
@@ -34,10 +35,10 @@ Rectangle()
 .strokeBorder(Color.blue, lineWidth: 10)
 ```
 
-
- ## For Views, use border modifier.
+## For Views, use border modifier.
 
 ## Border
+
 The border modifier draws borders outside of view.
 
 ```swift
