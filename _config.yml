@@ -9,8 +9,8 @@ blog:
   description                : Crafting dreams since 2015.
 
 # Layout configuration
-  logo_path                  : "assets/img/logo.png" # path to logo file
-  search_path                :  "dreamcraft.io"
+  logo_path                  : "assets/img/logoB.png" # path to logo file
+  search_path                : "dreamcraft.io"
                                # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
