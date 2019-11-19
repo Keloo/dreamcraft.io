@@ -6,7 +6,7 @@ url                          : "" # the base hostname & protocol for your site
 
 blog:
   title                      : Dreamcraft
-  description                : Crafting dreams since 2015.
+  description                : © 2019 Dreamcraft, SRL
 
 # Layout configuration
   logo_path                  : "assets/img/logoB.png" # path to logo file
@@ -25,7 +25,7 @@ blog:
 
 # Author info
 author:
-  fullname                  : Resetnic Dragos
+  fullname                  : #Resetnic Dragos
   rss                       : true # generate RSS feed and show it's icon in header
   mail                      : hello@dreamcraft.io # change to your e-mail address
   twitter                   : @DragosResetnic
