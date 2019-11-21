@@ -10,13 +10,11 @@ published: true
 ---
 In this post, we will learn how to use existing UIKit ViewControllers in the SwiftUI project. This tutorial will allow you to prepare your UIKit ViewController for Xcode Preview. 
  <!–-break-–>
- SwiftUI provides us with two protocols that will enable us to use existing UIKit code, UIViewRepresentable designated for view, and UIViewControllerRepresentable designated for ViewControllers. For our purpose, we will need the last one. We will do that by simply creating a struct that conforms to the UIViewControllerRepresentable protocol.
+ SwiftUI provides us with two protocols that will enable us to use existing UIKit code, UIViewRepresentable designated for the uiview ([an example in this post](https://dreamcraft.io/posts/uikit-previews)), and UIViewControllerRepresentable designated for ViewControllers. For our purpose, we will need the last one. We will do that by simply creating a struct that conforms to the **UIViewControllerRepresentable** protocol.
 
 ```swift
 struct FeedViewControllerSwiftUIView: UIViewControllerRepresentable {
-   
-    typealias UIViewControllerType = FeedViewController
-    
+       
     // 1
     func makeUIViewController(context: UIViewControllerRepresentableContext<FeedViewControllerSwiftUIView>) -> FeedViewController { 
         let feedViewController = FeedViewController()
@@ -41,3 +39,6 @@ struct FeedViewControllerSwiftUIView_Previews: PreviewProvider {
 
 2. Implementing updateUIViewController method that allow us to update our UIViewController subclass(FeedViewController). In our case, we will leave this method empty. 
 
+
+
+In [this post](https://dreamcraft.io/posts/swiftui-in-uikit-project), you can find how to use SwiftUI in the existing UIKit project. 
