@@ -60,7 +60,13 @@ const loadSavedTheme = () => {
 
 const updateTheme = (theme) => {
   if (!isObject(theme)) return
+  
+  Object
+  .entries(theme)
+  .forEach(([key, value]) => setCSSVariable(key, value))
 
+  saveTheme(theme)
+  
   const currentTheme = localStorage['currentTheme']
   if (currentTheme === NightTheme.themeName) {
     document.getElementById('logo_b').style.display = "none"
@@ -69,12 +75,6 @@ const updateTheme = (theme) => {
     document.getElementById('logo_b').style.display = "block"
     document.getElementById('logo_w').style.display = "none"
   }
-  
-  Object
-  .entries(theme)
-  .forEach(([key, value]) => setCSSVariable(key, value))
-
-  saveTheme(theme)
 }
 
 const checkForSavedTheme = () => {
