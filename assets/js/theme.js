@@ -60,12 +60,21 @@ const loadSavedTheme = () => {
 
 const updateTheme = (theme) => {
   if (!isObject(theme)) return
-
+  
   Object
   .entries(theme)
   .forEach(([key, value]) => setCSSVariable(key, value))
 
   saveTheme(theme)
+  
+  const currentTheme = localStorage['currentTheme']
+  if (currentTheme === NightTheme.themeName) {
+    document.getElementById('logo_b').style.display = "none"
+    document.getElementById('logo_w').style.display = "block"
+  } else {
+    document.getElementById('logo_b').style.display = "block"
+    document.getElementById('logo_w').style.display = "none"
+  }
 }
 
 const checkForSavedTheme = () => {
@@ -79,13 +88,9 @@ const switchTheme = () => {
   const theme = loadSavedTheme()
   const currentTheme = localStorage['currentTheme']
   if (theme && currentTheme === NightTheme.themeName) {
-    document.getElementById('logo_b').style.display = "block"
-    document.getElementById('logo_w').style.display = "none"
     updateTheme(LightTheme)
     el.className = iconForTheme(LightTheme.themeName)
   } else {
-    document.getElementById('logo_b').style.display = "none"
-    document.getElementById('logo_w').style.display = "block"
     updateTheme(NightTheme)
     el.className = iconForTheme(NightTheme.themeName)
   }
