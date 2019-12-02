@@ -4,6 +4,20 @@ title: "SwiftUI: How to use any UIView in SwiftUI"
 tags:
   - Swift Evolution
   - SwiftUI
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: orange
 published: true

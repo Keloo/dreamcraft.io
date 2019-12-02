@@ -4,6 +4,19 @@ title: "SwiftUI: How to use existing UIKit ViewControllers in SwiftUI?"
 tags:
   - Swift Evolution
   - SwiftUI
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - guide
+  - apple
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: orange
 published: true
