@@ -34,7 +34,7 @@ At Dreamcraft, before choosing the right architecture, we keep a few questions i
 ## Who will work with that project?
 When you are working alone, you can experiment with different architectures. But, when you work on a project that has two teams iOS and Android, it is helpful two have projects with the same architecture since you can always see how things are made on other platforms by simply opening the repo. And once those projects are built with the same architecture, you can easily navigate and find what are you looking for.
 
-## What problem am I trying to solve?
+## What problem we are trying to solve?
  Is it hard to orientate in the app codebase, or almost impossible to cover it with the tests. The are many problems, but you should know which problems can solve the architecture that you choose. For example, having a structured architecture helps you easier find code that you are looking for, which will save you a lot of time.
 
 ## How easy will it be for them to maintain and onboard new people on that project?
