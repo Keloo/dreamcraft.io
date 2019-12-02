@@ -17,7 +17,7 @@ tags:
   - architecture
   - guide
   - apple
-hero: https://dreamcraft.io/assets/img/whiteRectangle.png
+hero: https://dreamcraft.io/assets/img/articlesHeaders/architecture.png
 overlay: orange
 published: true
 ---
