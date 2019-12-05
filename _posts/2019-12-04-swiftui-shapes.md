@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SwiftUI: Available shapes in SwiftUI?"
+title: "SwiftUI: Available shapes in SwiftUI"
 tags:
   - Swift Evolution
   - swift 5
@@ -17,12 +17,10 @@ tags:
   - guide
   - apple
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
-overlay: pink
+overlay: red
 published: true
 ---
-In SwiftUI shapes a small 2D pieces that can be used to draw views.
-SwiftUI provides us with the following shapes: circle, ellipse, capsule, rectangle, rounded rectangle.
-In the following example, we will see an example of each shape.
+In SwiftUI, shapes are small 2D pieces that can be used to draw views. SwiftUI provides us with the following shapes: circle, ellipse, capsule, rectangle, rounded rectangle. In the following example, we will see an example of each shape.
 <!–-break-–>
 ```swift
 struct ShapesExample: View {
