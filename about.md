@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 published: true
 ---
-
 <div class="page" markdown="1">
 
 {% capture page_subtitle %}
@@ -18,8 +17,8 @@ published: true
 
 {% include page/title.html title=page.title subtitle=page_subtitle %}
 
-## Resetnic Dragos
+## Resetnic Dragos 
 
 Dragos is a developer and writer. He is the founder of dreamcraft.
-
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </div>
