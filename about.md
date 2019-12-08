@@ -21,4 +21,5 @@ published: true
 
 Dragos is a developer and writer. He is the founder of dreamcraft.
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="dragos-dreamcraft"><a class="LI-simple-link" href='https://ro.linkedin.com/in/dragos-dreamcraft?trk=profile-badge'>Dragos Resetnic</a></div>
 </div>
