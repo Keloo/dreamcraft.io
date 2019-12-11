@@ -26,7 +26,7 @@ This article contains a checklist that will help you with your next or existing 
 <!–-break-–>
 
 ## Preparation
-With every new iOS version, Apple updates its iOS Human Interface Guidelines, so be patient and read it every year.
+With every new iOS version, Apple updates its [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/), so be patient and read it every year.
 
 ## Design - KISS principle
 KISS, an acronym for "keep it simple, stupid" or "keep it stupid simple," is a design principle noted by the U.S. Navy in 1960. The KISS principle states that most systems work best if they are kept simple rather than made complicated; therefore, simplicity should be a key goal in design, and unnecessary complexity should be avoided.
