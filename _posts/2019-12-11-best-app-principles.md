@@ -34,8 +34,8 @@ That topic is quite big, and I will not cover it here, but as always, you feel w
 
 ## User Experience - Don't make me think.
 The app should feel native to the platform, and users should feel in the same environment as their OS. If your app is running on multiple platforms, some UX can migrate from one platform to another. So stick to the platform and don't make people think.
- 
- ## Technology
+
+## Technology
 With every WWDC, we get plenty of new technologies and out of the box functionality. That doesn't mean that we need to use all of them. We need to add things that may be suitable for our app. There a lot of must-have functionalities like accessibility, dark mode, dynamic fonts, and colorblind support that get ignored because of time lack. 
 
 ## Image/Video Assets and app description. - A good first impression can work wonders.
