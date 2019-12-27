@@ -24,7 +24,7 @@ From "learning how to learn" course, I learned that you need to apply a small am
 
 ### Start with something that you know.
 
-If you have previous experience, start by doing what you already did even if Albert Einstein might think that you are insane. If you have no clue about what you want to do, they're a lot of resources online that can help you with that on your Malcolm Gladwell's 10,000 Hour Rule way.
+If you have previous experience, start by doing what you already did even if [Albert Einstein might think that you are insane](https://quoteinvestigator.com/2017/03/23/same/). If you have no clue about what you want to do, they're a lot of resources online that can help you with that on your [Malcolm Gladwell's 10,000 Hour Rule way](https://youtu.be/5MgBikgcWnY).
 
 
 ### Start with something that you saw.
