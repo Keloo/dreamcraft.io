@@ -4,6 +4,24 @@ title: "SwiftUI: @Binding property wrapper"
 tags:
   - Swift Evolution
   - SwiftUI
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
+  - property wrapper
+  - @binding
+  - binding
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: black
 published: true

@@ -4,6 +4,24 @@ title: " Xcode Previews: Be sure that your app looks great on all devices."
 tags:
   - Swift Evolution
   - SwiftUI
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - guide
+  - apple
+  - dreamcraft
+  - xcode preview
+  - preview on multiple devices
+  - preview provider
+  - PreviewProvider
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: yellow
 published: true

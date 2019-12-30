@@ -2,8 +2,26 @@
 layout: post
 title: " Xcode Previews: How to preview your app in light and dark mode."
 tags:
-  - Swift Evolution
-  - SwiftUI
+- Swift Evolution
+- SwiftUI
+- swift 5
+- tutorial
+- guide
+- ios
+- macOS
+- uikit
+- watchkit
+- tvos
+- watchos
+- guide
+- iphone
+- architecture
+- guide
+- apple
+- dreamcraft
+- preview dark mode
+- light and dark
+- light and dark mode
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: red
 published: true

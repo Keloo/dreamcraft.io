@@ -3,7 +3,26 @@ layout: post
 title: "Single-expression functions and implicit return keyword."
 tags:
   - Swift Evolution
-  - Swift
+  - implicit return
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
+  - no return
+  - new in swift
+  - one line
+  - single expression
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: purple
 published: true

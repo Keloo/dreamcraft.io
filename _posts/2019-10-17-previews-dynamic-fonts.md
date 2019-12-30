@@ -4,6 +4,25 @@ title: "Xcode Previews: How to make 25% of your users happier, or how to preview
 tags:
   - Swift Evolution
   - SwiftUI
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
+  - happy users
+  - dynamic font
+  - preview dynamic font
+  - dynamic font sizes
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: purple
 published: true

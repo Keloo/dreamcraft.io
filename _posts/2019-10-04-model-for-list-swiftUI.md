@@ -3,8 +3,25 @@ layout: post
 title: "SwiftUI - Preparing a model for a List. Fixing: on 'ForEach' requires that 'YourModel' conform to 'Identifiable'"
 tags:
   - Identifiable
+  - Swift Evolution
   - SwiftUI
-  - How to
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
+  - models to list
+  - identifiable protocol
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: red
 published: true

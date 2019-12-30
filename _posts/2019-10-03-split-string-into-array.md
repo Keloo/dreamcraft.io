@@ -5,7 +5,22 @@ tags:
   - string
   - split
   - array
-  - How to
+  - Swift Evolution
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: purple
 published: true

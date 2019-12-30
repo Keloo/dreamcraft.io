@@ -4,6 +4,24 @@ title: "SwiftUI Stack views - Views that arranges their children"
 tags:
   - Swift Evolution
   - SwiftUI
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
+  - stack
+  - arrange views
+  - xcode previews
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: red
 published: true

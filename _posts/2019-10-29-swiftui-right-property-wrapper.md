@@ -4,6 +4,21 @@ title: "SwiftUI: How to use the right property wrapper"
 tags:
   - Swift Evolution
   - SwiftUI
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - property wrapper
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: red
 published: true

@@ -4,6 +4,22 @@ title: "SwiftUI: Forms"
 tags:
   - Swift Evolution
   - SwiftUI
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
+  - forms
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: orange
 published: true

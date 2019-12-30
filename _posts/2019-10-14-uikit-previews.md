@@ -4,7 +4,25 @@ title: "Preview your UIView (UIKit) with Xcode Previews."
 tags:
   - Swift Evolution
   - SwiftUI
-  - How to
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
+  - uiview in swiftUI
+  - preview uikit
+  - preview UIViewController
+  - xcode previews
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: blue
 published: true

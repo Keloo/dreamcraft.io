@@ -3,7 +3,23 @@ layout: post
 title: "Opaque Return Types."
 tags:
   - Swift Evolution
-  - Swift
+  - opaqe type
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
+  - new in swift
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: blue
 published: true

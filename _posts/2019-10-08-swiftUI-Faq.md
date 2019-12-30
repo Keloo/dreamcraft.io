@@ -4,6 +4,23 @@ title: "Frequently asked questions about SwiftUI"
 tags:
   - Swift Evolution
   - SwiftUI
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
+  - questions
+  - faq
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: green
 published: true

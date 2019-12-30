@@ -4,6 +4,24 @@ title: "SwiftUI: Xcode Previews"
 tags:
   - Swift Evolution
   - SwiftUI
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
+  - xcode preview
+  - preview ui
+  - xcode previews
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: orange
 published: true

@@ -4,6 +4,24 @@ title: "Development Assets: How to ship applications without mock assets used fo
 tags:
   - Swift Evolution
   - SwiftUI
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
+  - development assets
+  - test assets
+  - samller build
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: blue
 published: true

@@ -4,6 +4,22 @@ title: "SwiftUI: About modifiers and how to create your own."
 tags:
   - Swift Evolution
   - SwiftUI
+  - swift 5
+  - tutorial
+  - guide
+  - ios
+  - macOS
+  - uikit
+  - watchkit
+  - tvos
+  - watchos
+  - guide
+  - iphone
+  - architecture
+  - guide
+  - apple
+  - dreamcraft
+  - modifier
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
 overlay: red
 published: true
