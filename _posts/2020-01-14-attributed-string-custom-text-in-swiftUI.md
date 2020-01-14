@@ -77,12 +77,6 @@ struct NSAttributedStringExample: View {
     
     var body: some View {
         Form{
-        
-            //SwiftUI way using plus "+" operator  // 1.
-            //For example, this creates two text views then uses + to join them into a single text view.
-            Text("Attributed ").foregroundColor(.orange).kerning(10).font(.custom("Chalkduster", size: 25))
-            + Text("string").foregroundColor(.black).font(.custom("Chalkduster", size: 25))
-
             //Wrapping an UILabel
             TextWithAttributedString(attributedString: myCustomAttributedModel.myCustomAttributedString)
         }
