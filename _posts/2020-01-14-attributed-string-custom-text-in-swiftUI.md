@@ -24,15 +24,14 @@ published: true
 ---
 
 Since SwiftUI is relatively new, not all of the functionality from UIKit is available there. In the following post, we will reproduce NSAttributedString in two different ways.
-First is to wrap an UILabel in UIViewRepresentable, and the second one is to use the native SwiftUI way by combining text views using the plus "+" operator.
+The first way is by wrapping an UILabel in UIViewRepresentable, and the second one is to use the native SwiftUI way by combining text views using the plus "+" operator.
 
 <!–-break-–>
 
 
-### UIViewRepresentable to wrap our UILabel.
+### Wrapping an UILabel in UIViewRepresentable
 
 The example below shows a basic example of using an UILabel in SwiftUI by creating a struct that conforms to the UIViewRepresentable protocol. [Here you can find more on how to use any UIView subclass in SwiftUI](https://dreamcraft.io/posts/swiftui-use-uikit-view-in-swiftui).
-
 ```swift
 struct TextWithAttributedString: UIViewRepresentable {
     
@@ -53,11 +52,8 @@ struct TextWithAttributedString: UIViewRepresentable {
     }
 }
 ```
-
 In our example, we will create a struct that will hold our attributed string. In your real-life application, you will keep that code in your ViewModel.
-
 ```swift
-
 struct MyCustomTextModel {
     var myCustomAttributedString: NSMutableAttributedString = {
         let myTestString = "Attributed string"
@@ -75,20 +71,15 @@ struct MyCustomTextModel {
     }()
 }
 
-```
-
-1. To mime the same behavior in SwiftUI as the example above, we will need only a few lines of code.
-
-
-```swift
-
 struct NSAttributedStringExample: View {
     
     var myCustomAttributedModel = MyCustomTextModel()
     
     var body: some View {
         Form{
+        
             //SwiftUI way using plus "+" operator  // 1.
+            //For example, this creates two text views then uses + to join them into a single text view.
             Text("Attributed ").foregroundColor(.orange).kerning(10).font(.custom("Chalkduster", size: 25))
             + Text("string").foregroundColor(.black).font(.custom("Chalkduster", size: 25))
 
@@ -104,4 +95,32 @@ struct NSAttributedStringExample_Previews: PreviewProvider {
         NSAttributedStringExample()
     }
 }
+
 ```
+### SwiftUI way using plus "+" operator 
+
+To mime the same behavior in SwiftUI as the example above, we will need only a few lines of code. This creates two text views then uses + to join them into a single text view.
+
+```swift
+
+struct NSAttributedStringExample: View {
+    
+    var myCustomAttributedModel = MyCustomTextModel()
+    
+    var body: some View {
+        Form{
+            Text("Attributed ").foregroundColor(.orange).kerning(10).font(.custom("Chalkduster", size: 25))
+            + Text("string").foregroundColor(.black).font(.custom("Chalkduster", size: 25))
+        }
+    }
+}
+
+//Previewing our code
+struct NSAttributedStringExample_Previews: PreviewProvider {
+    static var previews: some View {
+        NSAttributedStringExample()
+    }
+}
+```
+
+
