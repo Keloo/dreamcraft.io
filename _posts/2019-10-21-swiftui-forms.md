@@ -25,8 +25,8 @@ overlay: orange
 published: true
 ---
 
-Form signIn/Up views to everything that requires you to enter some information, SwiftUI refers to this as a `Form`. A `Form` is a container just like [VStack](https://dreamcraft.io/posts/stack-swiftui), but one built specifically for building these sections of heterogeneous controls, giving the overall result a standard look and feel no matter what the platform.
-<!–-break-–>
+Form signIn/Up views to everything that requires you to enter some information, SwiftUI refers to this as a `Form`. A `Form` is a container just like [VStack](https://dreamcraft.io/posts/stack-swiftui), but one built specifically for building these sections of heterogeneous controls, giving the overall result a standard look and feel no matter what the platform.<!–-break-–>
+
 We can create a form just by wrapping any primitive view in our `Form` container.
 ```swift
 struct ExampleView: View {

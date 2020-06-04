@@ -20,14 +20,12 @@ tags:
   - apple
   - dreamcraft
   - property wrapper
-  - @state
   - state
 hero: https://dreamcraft.io/assets/img/whiteRectangle.png
-overlay: black
+overlay: blue
 published: true
 ---
-Property wrapper, is a powerful new feature in Swift 5.1. When you add the Property Wrapper, you're wrapping this property and augment it with some additional behavior when it's read or written. `@State` is one of the property wrappers provided by SwiftUI.
-<!–-break-–>
+Property wrapper, is a powerful new feature in Swift 5.1. When you add the Property Wrapper, you're wrapping this property and augment it with some additional behavior when it's read or written. `@State` is one of the property wrappers provided by SwiftUI.<!–-break-–>
 
 When we initialize a property that has `@State` property wrapper, we are prompting SwiftUI to monitor it. So every time `@State` variable is written, SwiftUI will know that and will update the views that depend on that variable in their body. I the following example, we have a button on top of a color. As soon as we press the button, it changes the value of `showColdColor` state property, and SwiftUI recreates View.
 
