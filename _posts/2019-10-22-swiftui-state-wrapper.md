@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SwiftUI: @State property wrapper"
+title: "SwiftUI: State property wrapper"
 tags:
   - Swift Evolution
   - SwiftUI
